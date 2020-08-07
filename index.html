@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="content_head text-center">
+            <img src="./assets/img/banner.PNG" class="img-fluid mb-3" alt="Soat">
+            <p>¡Cotiza tu SOAT en solo unos minutos!</p>
+        </div>
+        <div  class="d-flex justify-content-center">
+            <form class="w-md-75 pb-3">
+                <div class="form-group">
+                    <label for="category">¿Cúal es la categoría a la que pertenece tu vehículo?</label>
+                    <select id="category" class="form-control" @change="onChangeCategory">
+                        <option value="" selected disabled hidden>Seleccione la categoría</option>
+                        <option v-for="(categoria, i) in categorias" v-bind:value="i">{{ categoria.categoria }}</option>
+                    </select>
+                </div>
+                <div class="form-group" v-show="show_clase">
+                    <label for="clase">¿A que clase pertenece tu vehículo?</label>
+                    <select id="clase" class="form-control" @change="onChangeClase" v-model="selectedStatus">
+                        <option value="" selected disabled hidden>Seleccione la clase de vehiculo</option>
+                        <option v-for="(tipo, i) in tipo_vehiculo" v-bind:value="i">{{ tipo.descripcion }}</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class=" text-center total" v-show="show_total">
+            <p>TOTAL A PAGAR <br> <span>$ {{ total }}</span></p>
+        </div>    
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

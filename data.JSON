@@ -1,0 +1,284 @@
+[
+    {
+        "categoria": "Motos",
+        "info_categoria": [ 
+            {
+                "tarifa": 100,
+                "descripcion": "Ciclomotores",
+                "prima": 114900,
+                "contribucion": 57450
+            },
+            {
+                "tarifa": 110,
+                "descripcion": "Menos 100 C.C.",
+                "prima": 239300,
+                "contribucion": 119650
+            },
+            {
+                "tarifa": 120,
+                "descripcion": "De 100 a 200 C.C",
+                "prima": 321500,
+                "contribucion": 160750
+            },
+            {
+                "tarifa": 130,
+                "descripcion": "Más de 200 C.C",
+                "prima": 362500,
+                "contribucion": 181250
+            },
+            {
+                "tarifa": 140,
+                "descripcion": "Motocarro, Tricimoto, Cuadriciclos",
+                "prima": 362500,
+                "contribucion": 181250
+            }
+        ]
+    },
+    {
+        "categoria": "Camperos y Camionetas 0 - 9 Años",
+        "info_categoria": [ 
+            {
+                "tarifa": 211,
+                "descripcion": "Menos de 1.500 C.C.",
+                "prima": 377700,
+                "contribucion": 188850
+            },
+            {
+                "tarifa": 221,
+                "descripcion": "De 1.500 a 2.500 C.C",
+                "prima": 451100,
+                "contribucion": 225550
+            },
+            {
+                "tarifa": 231,
+                "descripcion": "Más de 2.500 C.C.",
+                "prima": 529300,
+                "contribucion": 264650
+            }
+        ]
+    },    
+    {
+        "categoria": "Camperos y Camionetas 10 Años o Más",
+        "info_categoria": [ 
+            {
+                "tarifa": 212,
+                "descripcion": "Menos de 1.500 C.C.",
+                "prima": 454100,
+                "contribucion": 227050
+            },
+            {
+                "tarifa": 222,
+                "descripcion": "De 1.500 a 2.500 C.C",
+                "prima": 534500,
+                "contribucion": 267250
+            },
+            {
+                "tarifa": 232,
+                "descripcion": "Más de 2.500 C.C.",
+                "prima": 607400,
+                "contribucion": 303700
+            }
+        ]
+    },    
+    {
+        "categoria": "Carga o Mixto",
+        "info_categoria": [ 
+            {
+                "tarifa": 310,
+                "descripcion": "Menos 5 Toneladas",
+                "prima": 423300,
+                "contribucion": 211650
+            },
+            {
+                "tarifa": 320,
+                "descripcion": "De 5 a 15 Toneladas",
+                "prima": 611800,
+                "contribucion": 305900
+            },
+            {
+                "tarifa": 330,
+                "descripcion": "Más de 15 Toneladas",
+                "prima": 773600,
+                "contribucion": 386800
+            }
+        ]
+    },    
+    {
+        "categoria": "Oficiales Especiales",
+        "info_categoria": [ 
+            {
+                "tarifa": 410,
+                "descripcion": "Menos de 1.500 C.C.",
+                "prima": 476300,
+                "contribucion": 238150
+            },
+            {
+                "tarifa": 420,
+                "descripcion": "De 1.500 a 2.500 C.C",
+                "prima": 600700,
+                "contribucion": 300350
+            },
+            {
+                "tarifa": 430,
+                "descripcion": "Más de 2.500 C.C.",
+                "prima": 720300,
+                "contribucion": 360150
+            }
+        ]
+    }, 
+    {
+        "categoria": "Autos Familiares 0-9 Años",
+        "info_categoria": [ 
+            {
+                "tarifa": 511,
+                "descripcion": "Menos de 1.500 C.C.",
+                "prima": 212700,
+                "contribucion": 106350
+            },
+            {
+                "tarifa": 521,
+                "descripcion": "De 1.500 a 2.500 C.C",
+                "prima": 258900,
+                "contribucion": 129450
+            },
+            {
+                "tarifa": 531,
+                "descripcion": "Más de 2.500 C.C.",
+                "prima": 302800,
+                "contribucion": 151400
+            }
+        ]
+    }, 
+    {
+        "categoria": "Autos Familiares 10 Años o Más",
+        "info_categoria": [ 
+            {
+                "tarifa": 512,
+                "descripcion": "Menos de 1.500 C.C.",
+                "prima": 282000,
+                "contribucion": 141000
+            },
+            {
+                "tarifa": 522,
+                "descripcion": "De 1.500 a 2.500 C.C",
+                "prima": 322400,
+                "contribucion": 161200
+            },
+            {
+                "tarifa": 532,
+                "descripcion": "Más de 2.500 C.C.",
+                "prima": 359300,
+                "contribucion": 179650
+            }
+        ]
+    }, 
+    {
+        "categoria": "Vehículo 6 ó + Pasajeros 0 - 9 Años",
+        "info_categoria": [ 
+            {
+                "tarifa": 611,
+                "descripcion": "Menos de 2.500 C.C.",
+                "prima": 379700,
+                "contribucion": 189850
+            },
+            {
+                "tarifa": 621,
+                "descripcion": "2.500 C.C. ó Más",
+                "prima": 508800,
+                "contribucion": 254400
+            }
+        ]
+    }, 
+    {
+        "categoria": "Vehículo 6 ó + Pasajeros 10 Años o Más",
+        "info_categoria": [ 
+            {
+                "tarifa": 612,
+                "descripcion": "Menos de 2.500 C.C.",
+                "prima": 485100,
+                "contribucion": 242550
+            },
+            {
+                "tarifa": 622,
+                "descripcion": "2.500 C.C. ó Más",
+                "prima": 611200,
+                "contribucion": 305600
+            }
+        ]
+    }, 
+    {
+        "categoria": "Autos Negocio 0-9 Años",
+        "info_categoria": [ 
+            {
+                "tarifa": 711,
+                "descripcion": "Menos de 1.500 C.C.",
+                "prima": 263600,
+                "contribucion": 131800
+            },
+            {
+                "tarifa": 721,
+                "descripcion": "De 1.500 a 2.500 C.C",
+                "prima": 327700,
+                "contribucion": 163850
+            },
+            {
+                "tarifa": 731,
+                "descripcion": "Más de 2.500 C.C.",
+                "prima": 423300,
+                "contribucion": 211650
+            }
+        ]
+    }, 
+    {
+        "categoria": "Autos Negocio 10 Años o Más",
+        "info_categoria": [ 
+            {
+                "tarifa": 712,
+                "descripcion": "Menos de 1.500 C.C.",
+                "prima": 329400,
+                "contribucion": 164700
+            },
+            {
+                "tarifa": 722,
+                "descripcion": "De 1.500 a 2.500 C.C",
+                "prima": 405500,
+                "contribucion": 202750
+            },
+            {
+                "tarifa": 732,
+                "descripcion": "Más de 2.500 C.C.",
+                "prima": 496800,
+                "contribucion": 284400
+            }
+        ]
+    }, 
+    {
+        "categoria": "Bus Buseta Serv. Público Urbano",
+        "info_categoria": [ 
+            {
+                "tarifa": 810,
+                "descripcion": "Bus Buseta Urbano",
+                "prima": 632300,
+                "contribucion": 316150
+            }
+        ]
+    }, 
+    {
+        "categoria": "Serv. Público Intermunicipal ",
+        "info_categoria": [ 
+            {
+                "tarifa": 910,
+                "descripcion": "Menos de 10 Pasajeros",
+                "prima": 625200,
+                "contribucion": 312600
+            },
+            {
+                "tarifa": 920,
+                "descripcion": "10 ó Más Pasajeros",
+                "prima": 907900,
+                "contribucion": 453950
+            }
+        ]
+    }        
+]
+
